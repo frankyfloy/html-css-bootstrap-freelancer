@@ -1,0 +1,20 @@
+@media all and (max-width: 355px){
+
+    .container{
+        min-width: 250px;
+    }
+    .navbar-brand{
+        float: left;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .navbar-toggle{
+        float: left;
+    }
+
+    .navbar-toggle > button{
+        float: right;
+    }
+
+}
