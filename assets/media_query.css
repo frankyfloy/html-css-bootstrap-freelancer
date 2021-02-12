@@ -1,9 +1,15 @@
-@media all and (max-width: 355px){
+@media all and (max-width: 380px){
 
-    .container{
-        min-width: 250px;
+    body{
+        min-width: 380px;
     }
-    .navbar-brand{
+    /* .container{
+        min-width: 370px;
+
+    } */
+
+
+    /* .navbar-brand{
         float: left;
         width: 100%;
         padding-left: 0;
@@ -11,10 +17,10 @@
 
     .navbar-toggle{
         float: left;
-    }
+    } */
 
-    .navbar-toggle > button{
+    /* .navbar-toggle > button{
         float: right;
-    }
+    } */
 
 }

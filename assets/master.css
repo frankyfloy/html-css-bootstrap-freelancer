@@ -1,6 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
 }
+
+
+/* ***************** HEADER ***************** */
+
 
 .container > .navbar-header {
     padding-top: 13px;
@@ -9,24 +14,55 @@ body{
 
 header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li > a{
     color: #fff;
+
 }
+
+.navbar-default{
+    border: none;
+}
+
 
 .navbar-brand{
     font-size: 2rem;
     font-weight: 700;
     padding: 15px 15px;
+    color: #FFF;
 }
 
-.navbar .container .navbar-collapse  li > a{
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+
+
+/* TODO: in media device md  > */
+/* .btn-group, .btn-group-vertical {
+    float: right;
+    padding-top: 20px;
+}
+
+
+
+
+.navbar .container .navbar-collapse  li > button > a{
     font-size: 1.50rem;
     font-weight: 700;
 }
 
-.navbar-nav > li > a {
+.navbar-nav > li > button > a {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 50px;
 }
+
+.navbar .container .navbar-collapse li > button > a:hover {
+    color: #1abc9c;
+}
+
+.navbar .container .navbar-collapse li > button > a:focus {
+    color: #1abc9c;
+} */
+
 
 
 
@@ -64,6 +100,143 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
 
 
 
+/* ****** JUMBOTRON ********/
+.img-jumbo{
+    width: 320px;
+    height: 254px;
+}
+
+.divider-star > div{
+    display: inline-block;
+}
+
+.divider-custom-line {
+    width: 11rem;
+    max-width: 11rem;
+    height: 0.50rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 15px 10px;
+}
+
+.glyphicon-star{
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+
+/* **************** MAIN **************** */
+
+
+/* TODO: racchiudere il padding delle righe */
+.rowJumbo,.row_about, .row_Portfolio, .row_Contact_me, .row_ocial_location{
+    padding: 90px 0;
+    text-align: center;
+}
+
+
+/* *****  PORTFOLIO ***** */
+
+.thumbnail{
+    width: 320px;
+    display: inline-block;
+}
+
+#Portfolio .row-thumbnail .thumbnail:first-child{
+    margin-top: 20px ;
+}
+
+.thumbnail > img{
+    border-radius: 8px;
+}
+
+
+/* *****  ABOUT ***** */
+
+/* Contact me */
+.form-control{
+    height: 40px;
+    border: none;
+}
+
+.input-group  input {
+    margin: 40px 0;
+}
+
+
+
+/* ********* FOOTER ***************/
+
+/* **** Copyright ****/
+
+#Copyright{
+    height: 75px;
+
+}
+
+#Copyright .text_copyright{
+    line-height: 75px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* ********  Utility ********+*/
+
+/* Text */
+.text-paragraphs{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+/* Button */
+
+.btn{
+    margin-top: 70px;
+}
+
+.btn-default {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+.my_btn_form{
+    padding: 15px 20px;
+}
+
+.my_btn_download{
+    padding: 15px 40px;
+}
+
+
+
 /* TEXT-UPPERCASE */
 .upperCase{
     text-transform: uppercase;
@@ -72,4 +245,55 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
 /* BG-COLOR */
 .bg-grey{
     background-color: #2c3e50;
+}
+
+.bg-green{
+    background-color: #1abc9c;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-blue-Copy{
+    background-color: #202832;
+}
+
+
+/* text-color */
+
+.text-color-white{
+    color: #fff;
+}
+
+.text-color-green{
+    color: #1abc9c;
+}
+
+
+.text-color-black{
+    color: black;
+}
+
+.m_10px{
+    margin: 40px 0;
+}
+
+.m_150px{
+    margin: 0 100px;
+}
+
+
+
+
+
+.fa {
+    padding: 18px;
+    width: 67px;
+    margin: 5px 4px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
 }
