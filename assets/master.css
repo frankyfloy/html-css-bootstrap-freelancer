@@ -4,12 +4,13 @@ body{
 }
 
 .container-fluid, .container{
-    min-width: 370px;
+    min-width: 390px;
 }
 
 
 
 /* ***************** HEADER ***************** */
+
 /* **** NAV SELECT DEVICE **** */
 
 .collapse-nav-1{
@@ -78,8 +79,6 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
 }
 
 
-/* <!-- Brand and toggle get grouped for better mobile display --> */
-
 .button_menu, .button_text_menu{
     display: inline-block;
 }
@@ -108,6 +107,12 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
 
 .navbar-default .navbar-toggle:hover {
     background-color: #148f73;
+}
+
+.my-btn-success{
+    background-color: inherit;
+    border: none;
+    margin-top: 10px;
 }
 
 
