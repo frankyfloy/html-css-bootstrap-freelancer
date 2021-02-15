@@ -1,15 +1,16 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    padding-top: 70px;
-
+    padding-top: 120px;
 }
 
 .container-fluid, .container{
-    min-width: 350px;
+    min-width: 370px;
 }
 
 
-/* nav device ----------------------*/
+
+/* ***************** HEADER ***************** */
+/* **** NAV SELECT DEVICE **** */
 
 .collapse-nav-1{
     visibility: hidden;
@@ -27,9 +28,17 @@ body{
 
 }
 
+.Nav_Select_Device .row-nav-device > *{
+    padding-top: 4px;
+}
 
-/* ***************** HEADER ***************** */
+.svg-icon-nav{
+    width: 20px;
+    height: 15px;
+}
 
+
+/* **** NAV BAR MENU **** */
 .navbar-default{
     top: 50px;
     left: 0;
@@ -46,7 +55,6 @@ body{
 
 header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li > a{
     color: #fff;
-
 }
 
 .navbar-brand{
@@ -55,23 +63,19 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     color: #FFF;
 }
 
-.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
     color: #fff;
 }
 
 
-.navbar-nav > li > a{
+.navbar-collapse > .navbar-nav > li > a{
     background-color: #2c3e50;
 }
 
-/* .navbar-nav > li > a:focus:active{
-    color:  green;
-} */
-
-.navbar-nav > li a:hover{
-    color: green;
+.navbar-collapse .navbar-nav >  li > a:hover{
+    color: #148f73;
 }
-
 
 
 /* <!-- Brand and toggle get grouped for better mobile display --> */
@@ -259,8 +263,24 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     text-align: right;
 }
 
-/* Button */
+/* ICON SOCIAL */
+.fa-social {
+    padding: 18px;
+    width: 67px;
+    margin: 5px 4px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
 
+.fa-social:hover {
+    background-color: white;
+}
+
+
+/* ******* BUTTON ********/
 .btn-default {
     font-size: 1.7rem;
     font-weight: 600;
@@ -283,6 +303,29 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     padding: 15px 40px;
 }
 
+.my-btn-download-nav:hover, .my-btn-download-nav:focus{
+    background-color: rgba(255,0,0,0.3);
+    color: rgb(255,0,0);
+}
+
+.btn-close-nav-1{
+    border-radius: 50%;
+}
+
+.btn-group-nav > button{
+    background-color: inherit;
+}
+
+.btn-nav-1{
+    height: 100%;
+    background-color: #ffffff;
+    color: grey;
+    border-color: grey;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
 
 
 /* TEXT-UPPERCASE */
@@ -290,7 +333,7 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     text-transform: uppercase;
 }
 
-/* BG-COLOR */
+/* bg-red-opacity-0.1 */
 .bg-grey{
     background-color: #2c3e50;
 }
@@ -307,6 +350,13 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     background-color: #202832;
 }
 
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-red-opacity-0.1{
+    background-color: rgba(255,0,0,0.1);
+}
 
 /* text-color */
 
@@ -323,114 +373,35 @@ header, .navbar-default .navbar-brand, .navbar .container .navbar-collapse  li >
     color: black;
 }
 
-.m_10px{
-    margin: 40px 0;
-}
-
-.m_150px{
-    margin: 0 100px;
-}
-
-
-
-
-
-.fa-social {
-    padding: 18px;
-    width: 67px;
-    margin: 5px 4px;
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-}
-
-.fa-social:hover {
-    background-color: white;
-}
-
-.fas{
-    height: 50px;
-    weight: 50px;
-    line-height: 50px;
-
-}
-
-
-.btn-nav-1{
-    height: 100%;
-    background-color: #ffffff;
-    color: grey;
-    border-color: grey;
-    border: none;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-
-
-
-.Nav_Select_Device  [class^='col-'] > a{
-    line-height: 50px;
-    vertical-align: middle;
-}
-
-.svg-icon-nav{
-    width: 20px;
-    height: 15px;
-}
-
-.my-btn-download-nav:hover, .my-btn-download-nav:focus{
-    background-color: rgba(255,0,0,0.3);
+.text-color-red{
     color: rgb(255,0,0);
 }
 
-.btn-close-nav-1{
-    border-radius: 50%;
+
+
+/* margin and padding */
+.m_150px{
+    margin: 0 100px;
 }
-
-.btn-group-nav > button{
-    background-color: inherit;
-}
-
-
-
 
 .m-right-3px{
     margin-right: 3px;
 }
 
-
-.color-red{
-    color: rgb(255,0,0);
-}
-
-.bg-color{
-
-    background-color: rgba(255,0,0,0.1);
-}
-
-
-
-
-
-
-
-
-
-.display-in_block{
-    display: inline-block;
-}
-
-
 .m-top-70px{
     margin-top: 70px;
 }
 
-
-
+.m-top-30px{
+    margin-top: 30px;
+}
 
 .p-top-15px{
     padding-top: 15px;
+}
+
+
+/* display property */
+.display-in_block{
+    display: inline-block;
 }

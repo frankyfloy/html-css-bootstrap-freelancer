@@ -1,42 +1,5 @@
-/* @media all and (min-width: 380px){
-
-
-
-} */
-
-
 @media screen and (min-width: 720px) {
     .Nav_Select_Device .collapse-nav-1{
         visibility: visible;
     }
-
 }
-
-/* @media all and (max-widht: 750px ) and (min-width: 300px){
-
-
-
-
-    .collapse-nav-1-750px{
-
-        visibility: hidden;
-
-    }
-
-
-
-
-} */
-
-/* @media all and (min-widht: 1200px){
-
-    #navbar-device-selection{
-        visibility: visible;
-    }
-
-    .container-fluid{
-        background-color: red;
-    }
-
-
-} */
